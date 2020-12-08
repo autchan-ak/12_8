@@ -1,0 +1,94 @@
+.kecheng{border-bottom:1px solid #eee;}
+.kecheng>a{
+	margin:20px 20px -1px;
+	color:#999;
+	border-bottom:1px #0000 solid;
+	display:inline-block;
+	padding-bottom:26px;
+	line-height:18px;
+	font-size: 18px;
+}
+.kecheng>a:hover,
+.kecheng>a.kc_active{
+	font-weight:bolder;
+	border-bottom:1px #1A79FF solid;
+}
+.zx_Kc{
+	height: 173px;
+}
+.kc_ico{
+	padding-left: 20px;
+	background:url(../img/index/ico_tag.png) left no-repeat;
+}
+.my_box{
+	width:250px;
+	height:72px;
+	overflow: hidden;
+}
+/* 标题超出省略 */
+.ke_title{
+	white-space:nowrap;	
+	overflow: hidden;
+	text-overflow:ellipsis;	
+}
+em{
+	font-style:normal;
+	color:#999;
+}
+/* 团队 */
+#ds_lb{
+	position: relative;
+	/* overflow: hidden; */
+}
+.ds_lbKs{
+	width:1056px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.ds_lbKs a{
+	width: 0px;
+	border-radius: 5px;
+	height: 55px;
+	top: 50%;
+}
+.ds_lbKs:hover a{
+	width: 35px;
+	background-color: rgb(27, 27, 27);
+}
+.ds_lbKs>a:hover{
+	background-color:rgb(50, 50, 50);
+}
+.ds_lbKs>.carousel-control-next{
+	border-bottom-right-radius:0;
+	border-top-right-radius:0;
+}
+.ds_lbKs>.carousel-control-prev{
+	border-bottom-left-radius:0;
+	border-top-left-radius:0;
+}
+.ds_td{
+
+	transition:left .5s linear;
+}
+@keyframes dong {
+	0%{
+		transform:translateX(0);
+	}
+	100%{
+		transform:translateX(-132px);
+	}
+}
+/* 头像动画 */
+#ds_lb .ds_td img:hover{
+	transform:rotate(360deg) ;
+	transition: .8s;
+}
+.td_conter{
+	width:100px;
+	height:175px;
+}
+.td_img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}

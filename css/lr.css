@@ -1,0 +1,68 @@
+.my_footer{height:12rem;}
+.fluid_bg{background-color:#fafafa;}
+.login_shadow{box-shadow:0px 0px 10px 0px #ccc;width:420px;}
+.a_no.font-weight-bold{border-bottom:2px solid #1A79FF;}
+.login_hover a.text-dark:hover{color:#343a40;font-weight:700;}
+.login_hover a.font_999:hover{color: #999;}
+/* 表单 */
+.my_input{
+	border: 1px solid #ddd;
+	padding: 9px 20px;
+	border-radius:4px;
+	line-height: 20px;
+	outline:0;
+}
+.my_uname,.my_upwd,.my_auth,.my_phone,.my_email{position: relative;}
+.my_input:focus{
+	border-color:#1A79FF;
+}
+.my_uname span,.my_upwd span,
+.my_auth span,.my_phone span,
+.my_email span{
+	top:10px;right:20px;
+	position:absolute;
+	color:#ff4c4c;
+}
+.my_auth span{ right:45%; }
+.my_auth span.dx{ right: 55%; }
+/* 错误 */
+.error{border-color:#FF4C4C;}
+/* 获取验证码 */
+.my_auth a{
+	position:absolute;
+	background: #ff9500;
+	top:0px;right:0px;
+	height:100%;width:35%;
+	border-radius: 4px;
+	text-align: center;
+	line-height:40px;
+}
+/* 短信 */
+.my_auth a.dx{width:45%;}
+/* ............................................ */
+.login_shadow.login>div>div:nth-child(7){
+	border-top:1px dotted #eee;
+	height: 70px;
+}
+.login_shadow.login>div>div:nth-child(7) a{
+	display: block;width: 26px;height: 26px;margin-left: 26px;
+	background:url(../img/login/ico_qq_login.png) no-repeat right top;
+}
+.login_shadow.login>div>div:nth-child(7) a:nth-child(3){
+	background-image:url(../img/login/ico_wx_login.png);
+}
+.login_shadow.login>div>div:nth-child(7) a:nth-child(4){
+	background-image:url(../img/login/ico_wb_login.png);
+}
+.login_shadow.login>div>div:nth-child(7) a:hover{
+	background-image:url(../img/login/ico_qq_login_hover.png);
+}
+.login_shadow.login>div>div:nth-child(7) a:nth-child(3):hover{
+	background-image:url(../img/login/ico_wx_login_hover.png);
+}
+.login_shadow.login>div>div:nth-child(7) a:nth-child(4):hover{
+	background-image:url(../img/login/ico_wb_login_hover.png);
+}
+/* 登录注册按钮 */
+.my_lr{border-radius: 4px;}
+.my_lr a{line-height: 40px;}
